@@ -1,0 +1,5 @@
+def ha(x,y):
+    s=(x^y)
+    c=x&y
+    return s,c
+print(ha(1,1))
